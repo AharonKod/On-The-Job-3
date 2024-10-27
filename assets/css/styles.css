@@ -1,0 +1,174 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #6c757d;
+    line-height: 1.6;
+}
+
+.header-title {
+    font-size: 2.8em;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 40px 20px;
+    background-image: url('https://wallpapercave.com/wp/wp6176143.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: inline-block;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+h1, h2, p {
+    margin-bottom: 15px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1a1a1a;
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    color: #3e5c6d;
+    font-weight: bold;
+    font-family: 'Verdana', sans-serif;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    color: #f0f0f0;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #e6e6e6;
+}
+
+/* ID Selectors for Sections */
+#header {
+    background: linear-gradient(135deg, #6c757d, #495057);
+    color: #86a0a5;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+#header .header-title {
+    font-size: 2.8em;
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* About Section */
+#about {
+    padding: 60px 20px;
+    background-color: #627485;
+}
+
+#about h2 {
+    color: #2e2e2e;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+/* Gallery Section */
+#gallery {
+    padding: 60px 20px;
+    background-color: #718397;
+}
+
+#gallery h2 {
+    color: #8f9ba0;
+    text-align: center;
+    font-size: 2.2em;
+}
+
+/* Gallery Item Styling using Class Selectors */
+.gallery-item {
+    background-color: #8f9ba0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.08);
+}
+
+.gallery-item p {
+    margin-top: 12px;
+    font-weight: bold;
+    color: #0be4bc;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    background-color: #3c6a70;
+    color: #fdfdfd;
+}
+
+#contact h2 {
+    color: #fdfdfd;
+    font-size: 2.2em;
+}
+
+.contact-form .form-control {
+    border: 1px solid #4f5eb4;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 1em;
+    color: #333;
+}
+
+.contact-form .form-control:focus {
+    border-color: #3f5e77;
+    outline: none;
+}
+
+.contact-form .btn-primary {
+    background-color: #ff5e00;
+    border: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 1em;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #a1b300;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #1c1c1c;
+    color: #fdfdfd;
+    padding: 15px;
+    font-size: 0.9em;
+    text-align: center;
+}
